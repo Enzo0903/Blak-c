@@ -1,0 +1,269 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* TELA DE LOGIN */
+}
+.topoL{
+    margin-top: 1%;
+    font-weight: 600;
+    font-size: medium;
+}
+.voltar{
+    text-decoration: none;
+    color: black;
+    margin-left: 5%;
+    margin-top: -2%;
+    font-weight: 900;
+    font-size: large;
+}
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-top: 8%;
+}
+.tela{
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+.email{
+    margin-top:-15vh !important;
+    margin-right: 35vw;
+}
+.email input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    padding-left: 2%;
+    margin-left: 0.1%;
+    margin-top: 1%;
+}
+.senha{
+    margin-top: 3vh;
+    margin-right: 35vw;
+}
+.senha input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+.Flogin{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    width: 20vw;
+    height: 5vh;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 30%;
+}
+.ou{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.663);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 49vw !important;
+}
+.google{
+    width: 3vw;
+    height: 4vh;
+    margin-right: 75%;
+    position: absolute;
+}
+.tgoogle{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.429);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.com{
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10%;
+    margin-left: 40%;
+    position: absolute;
+}
+.com2{
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 40%;
+}
+.tapple{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.429);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apple{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    margin-right: 80%;
+}
+.com3{
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.tfacebook{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.429);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    margin-right: 80%;
+}
+@media screen and (max-width: 428px) and (max-height: 926px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .topoL {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .voltar, .cad {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .texto {
+        font-size: 20px;
+        margin: 10px auto 5px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .tela {
+        flex-direction: column;
+        width: 90%;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .email, .senha {
+        width: 100%;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email input, .senha input {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .botao {
+        position: static;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .Flogin {
+        width: 100%;
+        font-size: 16px;
+        color: black;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+    }
+
+    .ou {
+        position: static;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .com, .com2, .com3 {
+        position: static;
+        width: 100%;
+        margin: 10px auto;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tgoogle, .tapple, .tfacebook {
+        font-size: 14px;
+        text-decoration: none;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: cent
+    }
+}

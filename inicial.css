@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #2b2b2b;
+}
+.topo{
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    position: fixed;
+    background-color: rgb(46, 46, 46);
+}
+.logo{
+    width: 10%;
+    margin-top: -2%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: translate(10px, 10px);
+    transition: all 0.3s ease-in-out;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: -6%;
+    gap: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.proj{
+    text-decoration: none;
+    color: #fff;
+}
+.proj:hover{
+    transform: perspective(1000px) translateZ(50px);
+    transition: all 0.3s ease-in-out;
+}
+.serv{
+    text-decoration: none;
+    color: #fff;
+}
+.serv:hover{
+    transform: perspective(1000px) translateZ(50px);
+    transition: all 0.3s ease-in-out;
+}
+.login{
+    width: 10%;
+    height: 4vh;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border:none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: -5px;
+}
+.login:hover{
+    transform: perspective(1000px) translateZ(50px);
+    transition: all 0.3s ease-in-out;
+    /* transform: scale(1.05);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    font-weight: 700;
+    border: 2px solid #fff;
+}
+.main{
+    margin-top: -5%;
+    margin-left: 5%;
+    color: #fff;
+}
+.estrela{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 12vh;
+    left: 2%;
+}
+.estrela2{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 12vh;
+    left: 40%;
+}
+.texto{
+    color: #fbf8f8;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.t1{
+    font-weight: 700;
+}
+.t2{
+    margin-top: 1%;
+    font-weight: 80;
+}
+.t3{
+    margin-top: 1%;
+    font-weight: 80;
+}
+.t4{
+    margin-top: 1%;
+    font-weight: 80;
+}
+.analise{
+    margin-left: 3%;
+    margin-top: 1%;
+    width: 10%;
+    height: 5vh;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.analise:hover{
+    transform: perspective(1000px) translateZ(50px);
+    transition: all 0.3s ease-in-out;
+    /* transform: scale(1.05);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    font-weight: 700;
+    border: 2px solid #fff;
+}
+.cacto{
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    margin-left: 72.5%;
+    margin-top: -20%;
+    cursor: pointer;
+}
+.zeus{
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    margin-left: 52%;
+    margin-top: -5%;
+    cursor: pointer;
+}
+.estrela3{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 5vh;
+    left: 93%;
+}
+.estrela4{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 5vh;
+    left: 10%;
+}
+.parceiros{
+    color: #fff;
+    font-weight: 700;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.logoparc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_bg{
+    width:4vw;
+    height: 8vh;
+    margin-left: 10%;
+}
+.r{
+    color: #fff;
+    margin-left: 10%;
+    top: 1%;
+}
+.pserv{
+    color: #ffffff9c;
+    font-weight: 200;
+    font-size: smaller;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.serv2{
+    color: #fff;
+    font-size: medium;
+}
+.contF{
+    color: #ffffff9c;
+    font-weight: 200;
+    font-size: smaller;
+    margin-left: 30%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.cont2{
+    color: #fff;
+    font-size: medium;
+}
+.recurF{
+    color: #ffffff9c;
+    font-weight: 200;
+    font-size: smaller;
+    margin-left: 55%;
+    margin-top: -18.5%;
+    cursor: pointer;
+}
+.recursos2{
+    color: #fff;
+    font-size: medium;
+}
+.suportF{
+    color: #ffffff9c;
+    font-weight: 200;
+    font-size: smaller;
+    margin-left: 55%;
+    margin-top: 5.5%;
+    cursor: pointer;
+}
+.suport2{
+    color: #fff;
+    font-size: medium;
+}
+.empresF{
+    color: #ffffff9c;
+    font-weight: 200;
+    font-size: smaller;
+    cursor: pointer;
+    margin-left: 75%;
+    margin-top: -19.5%;
+}
+.empresas2{
+    color: #fff;
+    font-size: medium;
+}
+@media screen and (max-width: 428px) and (max-height: 926px) {
+
+    .topo {
+        height: auto;
+        padding: 10px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0 0 0;
+        gap: 15px;
+    }
+
+    .login {
+        width: 60%;
+        margin: 10px auto;
+    }
+
+    .estrela, .estrela2, .estrela3, .estrela4 {
+        width: 40px;
+        height: 40px;
+        position: static;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .texto {
+        margin: 30px 10px;
+        text-align: center;
+    }
+
+    .t1 {
+        font-size: 24px;
+    }
+
+    .t2, .t3, .t4 {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .analise {
+        width: 70%;
+        height: 40px;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+
+    .cacto, .zeus {
+        width: 80%;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .parceiros {
+        font-size: 20px;
+        margin: 30px auto 10px;
+        text-align: center;
+    }
+
+    .logoparc img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .logo_bg {
+        width: 20%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .r {
+        font-size: 14px;
+        margin: 10px auto;
+    }
+
+    .textF {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .textF div {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .pserv, .contF, .recurF, .suportF, .empresF {
+        margin: 0;
+    }
+
+    .serv2, .cont2, .recursos2, .suport2, .empresas2 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .pserv p, .contF p, .recurF p, .suportF p, .empresF p {
+        font-size: 13px;
+        margin: 0;
+    }
+}
